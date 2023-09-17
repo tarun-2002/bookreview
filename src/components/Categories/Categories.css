@@ -1,0 +1,114 @@
+/* Importing Google font -Open+Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+.card-wrapper {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container-card {
+    height: 55vh;
+    width: 22vw;
+    padding: 40px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin: 10px;
+}
+
+.container .title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.container .price {
+    color: #FF6B6B;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin: 15px 0;
+}
+
+.container span {
+    font-size: 1.2rem;
+}
+
+.container .description {
+    color: #3b3b3b;
+    font-size: 1.1rem;
+    margin: 20px 0 20px;
+}
+
+.container .offer {
+    display: block;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 25px;
+}
+
+.subscribe-button {
+    display: inline-block;
+
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 500;
+
+
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    display: inline-block;
+}
+
+.subscribe-button:hover {
+    background: rgba(0, 136, 169, 1);
+    font-size: 1.3rem;
+    color: #bababa;
+}
+
+.ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+
+.ribbon {
+    width: 230px;
+    font-size: 0.918rem;
+    text-align: center;
+    padding: 8px 0;
+    background: #FF6B6B;
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-field .ant-select {
+    width: 100%;
+}

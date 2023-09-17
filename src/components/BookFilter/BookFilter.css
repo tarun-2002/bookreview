@@ -1,0 +1,37 @@
+.select-dropdown {
+    width: 150px;
+    /* Adjust the width as needed */
+}
+
+select {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    appearance: none;
+    /* Remove default styles (e.g., arrow) */
+    cursor: pointer;
+}
+
+/* Style the arrow icon */
+.select-container::after {
+    content: "\25BC";
+    /* Unicode downward arrow character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* Allow clicking through the arrow */
+}
+
+/* Style when the select is focused */
+select:focus {
+    border-color: #007bff;
+    /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Add a subtle shadow on focus */
+}

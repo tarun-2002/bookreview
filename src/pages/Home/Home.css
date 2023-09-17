@@ -1,0 +1,35 @@
+body {
+    background: #24252A;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+.lander {
+    margin-top: 30px;
+    height: 50vh;
+    text-align: center;
+}
+
+.lander-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.lander-img {
+    height: 300px;
+    padding: 10px;
+}
+
+.lander-text-wrapper {
+    width: 600px;
+    display: inline-block;
+    text-align: center;
+}
